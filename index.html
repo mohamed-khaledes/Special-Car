@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link class="img-title" rel="icon" href="imgs/aboutUs-removebg-preview.png" type="image/png" width="20px">    <title>Special Car</title>
+    <!--css links-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<!--Swiper.js links-->
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Start settings Box-->
+<div class="settings-box">
+<div class="set-btn">
+    <i class="fa-solid fa-gear set"></i>
+</div>
+<div class="settings-content">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#C96FDF"></li>
+                    <li data-color="#933AB7"></li>
+                    <li data-color="#1de9b6"></li>
+                    <li data-color="#03a9f4"></li>
+                </ul>
+            </div>
+            <div class="random-background">
+                <h4>Background Options</h4>
+                <div class="randomB-options">
+                    <span class="yes active" data-bg="yes">Yes</span>
+                    <span class="no" data-bg="no">NO</span>
+                </div>
+            </div>
+            <div class="show-bullets">
+                <h4>Show Bullets</h4>
+                <span class="show active" data-sb="show">Show</span>
+                <span class="hide" data-sb="hide">Hide</span>
+            </div>
+</div>
+    </div>
+    <!--End settings Box-->
+    <!--Start nav bullets-->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip">About</div>
+        </div>
+        <div class="bullet" data-section=".our-progress">
+            <div class="tooltip">Our Progress</div>
+        </div>
+        <div class="bullet" data-section=".gallary">
+            <div class="tooltip">Gallary</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Timeline</div>
+        </div>
+        <div class="bullet" data-section=".our-features">
+            <div class="tooltip">Our features</div>
+        </div>
+        <div class="bullet" data-section=".testemonials">
+            <div class="tooltip">Testemonials</div>
+        </div>
+        <div class="bullet" data-section=".contact-us">
+            <div class="tooltip">Contact Us</div>
+        </div>
+        <div class="bullet" data-section=".footer">
+            <div class="tooltip">Footer</div>
+        </div>
+    </div>
+    <!--End nav bullets-->
+    <!-- Start landng page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <header class="header-area">
+            <div class="logo">Special Car<i class="fa-solid fa-car-burst"></i> </div>
+            <div class="close-nav">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+        </header>
+        <nav class="navbar open-nav">
+            <button class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="navbar-nav">
+                <li class="li"><a class="active" href="index.html" data-direction=".home"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li class="li"><a href="#"  data-direction=".about-us"><i class="fa-solid fa-address-card"></i>About</a></li>
+                <li class="li"><a href="#" data-direction=".our-progress"><i class="fa-solid fa-bars-progress"></i>Our Progress</a></li>
+                <li class="li"><a href="#" data-direction=".gallary"><i class="fa-brands fa-envira"></i>Gallary</a></li>
+                <li class="li"><a href="#" data-direction=".timeline"><i class="fa-solid fa-timeline"></i>Timeline</a></li>
+                <li class="li"><a href="#" data-direction=".our-features"><i class="fa-solid fa-vault"></i>Our features</a></li>
+                <li class="li"><a href="#" data-direction=".testemonials"><i class="fa-solid fa-users"></i>Testemonials</a></li>
+                <li><a href="secondPage.html"><i class="fa-solid fa-car-on"></i>Other Available Cars</a></li>
+                <li class="li"><a href="#" data-direction=".contact-us"><i class="fa-solid fa-headphones-simple"></i>Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="intro-text">
+            <h1>We Are <span>Creative</span> Agency</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore cum accusamus iusto! Quos, facere dolorem.</p>
+        </div>
+    </div>
+    <!-- End landng page -->
+    <!--Start About Us-->
+    <div class="about-us">
+        <div class="container">
+            <div class="info-box">
+                <h2 class="h2">About Us</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis perspiciatis dolor corrupti incidunt amet est doloremque provident temporibus deleniti, voluptas rem saepe suscipit repellat? Cumque reiciendis soluta ducimus corporis pariatur!</p>
+            </div>
+            <div class="img-box">
+                <img src="imgs/aboutUs-removebg-preview.png" alt="aboutus-carPhoto">
+            </div>
+        </div>
+    </div>
+    <!--End About Us-->
+    <!--Start Our Progress-->
+    <div class="our-progress">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2 class="h2">Our Progress</h2>
+            <div class="boxs-parent">
+                <div class="box-one box">
+                    <div class="percent" style="--num:75;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle class="circleTwo" cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            75<span>%</span>
+                        </div>
+                    </div>
+                        <div class="text-box">
+                            <h4>New Visitors</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                <div class="box-two box">
+                    <div class="percent" style="--num:80;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle class="circleTwo" cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            80<span>%</span>
+                        </div>
+                    </div>
+                        <div class="text-box">
+                            <h4>Social Media</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                <div class="box-three box">
+                    <div class="percent" style="--num:100;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle class="circleTwo" cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            100<span>%</span>
+                        </div>
+                    </div>
+                        <div class="text-box">
+                            <h4>Referrails</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                <div class="box-four` box">
+                    <div class="percent" style="--num:85;">
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle class="circleTwo" cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            85<span>%</span>
+                        </div>
+                    </div>
+                        <div class="text-box">
+                            <h4>Search Engines</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+        </div>
+    </div>
+    </div>
+    <!--End Our Progress-->
+    <!--Start Gallary-->
+    <div class="gallary">
+        <h2 class="h2">Gallary</h2>
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="imgs/gallary01.jpg" alt=" bmw 8 series jeff koons">
+                        <div class="discription">
+                            <h3> bmw 8 series</h3>
+                            <p>four-seater car</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="price">$40,000</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/gallary02.jpg" alt=" mustang car">
+                        <div class="discription">
+                            <h3>mustang car</h3>
+                            <p>four-seater car</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="price">$30,000</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/gallary03.jpg" alt=" lamborghini egoista">
+                        <div class="discription">
+                            <h3>lamborghini egoista</h3>
+                            <p>four-seater car</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="price">$100,000</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/gallary04.jpeg" alt="Audi Q7 Facelift">
+                        <div class="discription">
+                            <h3>Audi Q7 Facelift</h3>
+                            <p>four-seater car</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="price">$60,000</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/gallary05.jpg" alt=" ferrari">
+                        <div class="discription">
+                            <h3>ferrari</h3>
+                            <p>four-seater car</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="price">$110,000</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/gallary06.jpg" alt=" mercedes classe g 2021">
+                        <div class="discription">
+                            <h3>mercedes classe g</h3>
+                            <p>four-seater car</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="price">$70,000</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/gallary07.jpg" alt="Bmw M3">
+                        <div class="discription">
+                            <h3>Bmw M3</h3>
+                            <p>four-seater car</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="price">$50,000</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="imgs/gallary08.jpg" alt=" mustang car">
+                        <div class="discription">
+                            <h3>mustang car</h3>
+                            <p>four-seater car</p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="price">$30,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Gallary-->
+    <!--Start Timeline-->
+    <div class="timeline">
+        <div class="overlay"></div>
+        <h2 class="h2">timleline</h2>
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2022</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aut necessitatibus repudiandae dolor iure.</p>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aut necessitatibus repudiandae dolor iure.</p>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+                <div class="year">2018</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aut necessitatibus repudiandae dolor iure.</p>
+                    </div>
+                </div>
+                <div class="clearfloat"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aut necessitatibus repudiandae dolor iure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Timeline-->
+    <!--Start Features-->
+    <div class="our-features">
+        <h2 class="h2">our features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <i class="fa-solid fa-car-burst"></i>
+                <h3>Car Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum.</p>
+            </div>
+            <div class="feat-box">
+                <i class="fa-solid fa-car-burst"></i>
+                <h3>Car Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum.</p>
+            </div>
+            <div class="feat-box">
+                <i class="fa-solid fa-car-burst"></i>
+                <h3>Car Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum.</p>
+            </div>
+            <div class="feat-box">
+                <i class="fa-solid fa-car-burst"></i>
+                <h3>Car Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum.</p>
+            </div>
+            <div class="feat-box">
+                <i class="fa-solid fa-car-burst"></i>
+                <h3>Car Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum.</p>
+            </div>
+            <div class="feat-box">
+                <i class="fa-solid fa-car-burst"></i>
+                <h3>Car Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum.</p>
+            </div>
+        </div>
+    </div>
+    <!--End Features-->
+    <!--Start testemonial-->
+    <div class="testemonials">
+        <div class="overlay"></div>
+        <h2 class="h2">testemonials</h2>
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div>
+                        <div class="person-teste">
+                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perferendis sequi, voluptatem doloribus quasi blanditiis odio commodi nemo debitis facilis deserunt quaerat ex amet harum nobis itaque sint? Inventore, beatae.</q>
+                        </div>              
+                        <div class="person-info">
+                            <img src="imgs/teste01.jpg" alt="">
+                            <div class="text">
+                                <h4>Someone</h4>
+                                <p>Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div class="person-teste">
+                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perferendis sequi, voluptatem doloribus quasi blanditiis odio commodi nemo debitis facilis deserunt quaerat ex amet harum nobis itaque sint? Inventore, beatae.</q>
+                        </div>              
+                        <div class="person-info">
+                            <img src="imgs/teste02.webp" alt="">
+                            <div class="text">
+                                <h4>Someone</h4>
+                                <p>Front-end Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div class="person-teste">
+                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perferendis sequi, voluptatem doloribus quasi blanditiis odio commodi nemo debitis facilis deserunt quaerat ex amet harum nobis itaque sint? Inventore, beatae.</q>
+                        </div>              
+                        <div class="person-info">
+                            <img src="imgs/teste03.webp" alt="">
+                            <div class="text">
+                                <h4>Someone</h4>
+                                <p>Back-end Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div class="person-teste">
+                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perferendis sequi, voluptatem doloribus quasi blanditiis odio commodi nemo debitis facilis deserunt quaerat ex amet harum nobis itaque sint? Inventore, beatae.</q>
+                        </div>              
+                        <div class="person-info">
+                            <img src="imgs/teste04.jpg" alt="">
+                            <div class="text">
+                                <h4>Someone</h4>
+                                <p>Full-stack Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div class="person-teste">
+                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perferendis sequi, voluptatem doloribus quasi blanditiis odio commodi nemo debitis facilis deserunt quaerat ex amet harum nobis itaque sint? Inventore, beatae.</q>
+                        </div>              
+                        <div class="person-info">
+                            <img src="imgs/teste05.webp" alt="">
+                            <div class="text">
+                                <h4>Someone</h4>
+                                <p>Web Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div class="person-teste">
+                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perferendis sequi, voluptatem doloribus quasi blanditiis odio commodi nemo debitis facilis deserunt quaerat ex amet harum nobis itaque sint? Inventore, beatae.</q>
+                        </div>              
+                        <div class="person-info">
+                            <img src="imgs/teste06.jpg" alt="">
+                            <div class="text">
+                                <h4>Someone</h4>
+                                <p>UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div class="person-teste">
+                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perferendis sequi, voluptatem doloribus quasi blanditiis odio commodi nemo debitis facilis deserunt quaerat ex amet harum nobis itaque sint? Inventore, beatae.</q>
+                        </div>              
+                        <div class="person-info">
+                            <img src="imgs/teste07.jpg" alt="">
+                            <div class="text">
+                                <h4>Someone</h4>
+                                <p>Engenier</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div class="person-teste">
+                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perferendis sequi, voluptatem doloribus quasi blanditiis odio commodi nemo debitis facilis deserunt quaerat ex amet harum nobis itaque sint? Inventore, beatae.</q>
+                        </div>              
+                        <div class="person-info">
+                            <img src="imgs/teste08.jpg" alt="">
+                            <div class="text">
+                                <h4>Someone</h4>
+                                <p>Doctor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div>
+                        <div class="person-teste">
+                            <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perferendis sequi, voluptatem doloribus quasi blanditiis odio commodi nemo debitis facilis deserunt quaerat ex amet harum nobis itaque sint? Inventore, beatae.</q>
+                        </div>              
+                        <div class="person-info">
+                            <img src="imgs/teste09.jpg" alt="">
+                            <div class="text">
+                                <h4>Someone</h4>
+                                <p>businessman</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--End testemonial-->
+    <!--Start Contact us-->
+    <div class="contact-us">
+        <h2 class="h2">contact us</h2>
+        <div class="container">
+            <div class="left">
+                <form action="">
+                    <input type="text"  placeholder="UserName" name="username" required>
+                    <input type="text" placeholder="Your Phone" name="phone" required>
+                    <input type="email" placeholder="Your Email" name="email" required>
+                    <input type="text" placeholder="Subject" name="subject" required>
+                </form>
+            </div>
+            <div class="right">
+                <form action="">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="send" >
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--End Contact us-->
+    <footer class="footer">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="news-letter">
+                    <h3>news letter</h3>
+                    <form action="">
+                        <input type="email" name="email" placeholder="Enter Your Email Address">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                    <p>www.DownloadNewThemes.com</p>
+                </div>
+                <div class="Useful-links">
+                    <h3>useful links</h3>
+                    <div class="links-content">
+                        <ul class="left-side">
+                            <li class="li"><a href="index.html">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portofolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                        <ul class="right-side">
+                            <li><a href="#">Staff</a></li>
+                            <li><a href="#">Booking</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="insta-feed">
+                    <h3>instagram feed</h3>
+                    <div class="img-content">
+                        <img src="/imgs/footer01.webp" alt="">
+                        <img src="/imgs/footer02.jpg" alt="">
+                        <img src="/imgs/footer03.jpg" alt="">
+                        <img src="/imgs/footer04.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="last-content">
+                <p>&copy; CarRepar 2022 | Created With &hearts; by <span>Mohamed Khaled Easmael</span></p>
+                <div class="social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Scroll to top-->
+    <div class="scrollToTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!--Scroll to top-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
