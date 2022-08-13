@@ -32,7 +32,7 @@ colorList.forEach(function(li){
 const menu =[
     {
         id:1,
-        img:"../imgs/timeline02.jpg",
+        img:"imgs/timeline02.jpg",
         title:'Ferrari',
         category:'ferrari',
         price:50.05,
@@ -40,7 +40,7 @@ const menu =[
     },
     {
         id:2,
-        img:"../imgs/gallary05.jpg",
+        img:"imgs/gallary05.jpg",
         title:'Ferrari',
         category:'ferrari',
         price:50.05,
@@ -48,7 +48,7 @@ const menu =[
     },
     {
         id:3,
-        img:"../imgs/ourProgress.webp",
+        img:"imgs/ourProgress.webp",
         title:'Lamborghini',
         category:'lamborghini',
         price:40.05,
@@ -56,7 +56,7 @@ const menu =[
     },
     {
         id:4,
-        img:"../imgs/gallary03.jpg",
+        img:"imgs/gallary03.jpg",
         title:'Lamborghini',
         category:'lamborghini',
         price:40.05,
@@ -64,7 +64,7 @@ const menu =[
     },
     {
         id:4,
-        img:"../imgs/footer02.jpg",
+        img:"imgs/footer02.jpg",
         title:'Lamborghini',
         category:'lamborghini',
         price:40.05,
@@ -72,7 +72,7 @@ const menu =[
     },
     {
         id:6,
-        img:"../imgs/gallary04.jpeg",
+        img:"imgs/gallary04.jpeg",
         title:'Audi',
         category:'audi',
         price:24.05,
@@ -80,7 +80,7 @@ const menu =[
     },
     {
         id:7,
-        img:"../imgs/footer01.webp",
+        img:"imgs/footer01.webp",
         title:'Audi',
         category:'audi',
         price:24.05,
@@ -88,7 +88,7 @@ const menu =[
     },
     {
         id:8,
-        img:"/imgs/gallary07.jpg",
+        img:"imgs/gallary07.jpg",
         title:'Bmw',
         category:'bmw',
         price:30.05,
@@ -96,7 +96,7 @@ const menu =[
     },
     {
         id:9,
-        img:"/imgs/lan2.jpg",
+        img:"imgs/lan2.jpg",
         title:'Bmw',
         category:'bmw',
         price:24.05,
@@ -104,7 +104,7 @@ const menu =[
     },
     {
         id:10,
-        img:"/imgs/gallary01.jpg",
+        img:"imgs/gallary01.jpg",
         title:'Bmw',
         category:'bmw',
         price:24.05,
@@ -112,7 +112,7 @@ const menu =[
     },
     {
         id:11,
-        img:"/imgs/land5.jpg",
+        img:"imgs/land5.jpg",
         title:'Marcedec',
         category:'marcedec',
         price:35.05,
@@ -120,7 +120,7 @@ const menu =[
     },
     {
         id:12,
-        img:"/imgs/timeline06.jpg",
+        img:"imgs/timeline06.jpg",
         title:'Marcedec',
         category:'marcedec',
         price:35.05,
