@@ -142,7 +142,7 @@ function randomizeBackground(){
             // set the random variable
             let random =Math.floor(Math.random() * imgs.length);
             // set the background 
-            landingPage.style.backgroundImage = `url(../imgs/${imgs[random]})`;
+            landingPage.style.backgroundImage = `url(imgs/${imgs[random]})`;
             localStorage.setItem('background-img',landingPage.style.backgroundImage)
         },10000);
     }
